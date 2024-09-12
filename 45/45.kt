@@ -1,4 +1,4 @@
-class Solution {
+class Solution1 {
     fun jump(nums: IntArray): Int {
         var steps = mutableListOf<Int>()
         steps.add(0)
@@ -17,5 +17,26 @@ class Solution {
         }
 
         return steps.last()
+    }
+}
+
+class Solution2 {
+    fun jump(nums: IntArray): Int {
+        var currentJumpIndex = 0
+        var targetJumpIndex = nums[0]
+        var jumps = 0
+
+        for (i in 0 until nums.size) {
+            if (i > currentJumpIndex) {
+                jumps++
+                currentJumpIndex = targetJumpIndex
+            }
+
+            if (i + nums[i] > targetJumpIndex) {
+                targetJumpIndex = i + nums[i]
+            }
+        }
+
+        return jumps
     }
 }
