@@ -28,6 +28,19 @@ Output: [5,6,7,1,2,3,4]
 2. `[7,6,5,4,3,2,1]` -> `[5,6,7,4,3,2,1]`
 3. `[5,6,7,4,3,2,1]` -> `[5,6,7,1,2,3,4]`
 
+### Implementation
+
+```kotlin
+class Solution {
+    fun rotate(nums: IntArray, k: Int): Unit {
+        val n = nums.size
+        nums.reverse(0, n)
+        nums.reverse(0, k % n)
+        nums.reverse(k % n, n)
+    }
+}
+```
+
 ### Reference
 
 - [Rotate array (list) in linear time and constant memory - StackOverflow](https://stackoverflow.com/questions/60177936/rotate-array-list-in-linear-time-and-constant-memory)

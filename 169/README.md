@@ -42,3 +42,25 @@ Output: 2
 |   1 |   1 |     2 | 數字相同 count + 1 |
 |   2 |   1 |     1 | 數字不同 count - 1 |
 |   2 |   2 |     1 | 數字不同 count - 1 = 0 -> 從 1 開始 |
+
+### Implementation
+
+```kotlin
+class Solution {
+    fun majorityElement(nums: IntArray): Int {
+        var answer = nums[0]
+        var count = 0
+        
+        nums.forEach {
+            count += if (it == answer) 1 else -1
+
+            if (count == 0) {
+                answer = it
+                count = 1
+            }
+        }
+
+        return answer
+    }
+}
+```

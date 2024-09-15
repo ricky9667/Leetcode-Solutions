@@ -13,7 +13,7 @@
 
 以下 example 的 `position[i]` 為每個 index 可以跳到的最大 index，後來都被直接簡化成 i + nums[i] 不存在陣列中。
 
-### Example 1
+### Example 1-1
 
 | `i` | `nums[i]` | `steps[i]` | `position[i] = i + nums[i]` |
 | --- | --------- | ---------- | ----------- |
@@ -23,7 +23,7 @@
 |   3 |         1 |          2 |           4 |
 |   4 |         4 |          2 |           4 |
 
-### Example 2
+### Example 1-2
 
 | `i` | `nums[i]` | `steps[i]` | `position[i] = i + nums[i]` |
 | --- | --------- | ---------- | ----------- |
@@ -32,6 +32,32 @@
 |   2 |         0 |          1 |           2 |
 |   3 |         1 |          2 |           4 |
 |   4 |         4 |          2 |           4 |
+
+### Implementation
+
+```kotlin
+class Solution {
+    fun jump(nums: IntArray): Int {
+        var steps = mutableListOf<Int>()
+        steps.add(0)
+
+        for (i in 1 until nums.size) {
+            var minStepsToIndex = i
+
+            for (j in 0 until steps.size) {
+                // j + nums[j] = max reachable position for index `j`
+                if (j + nums[j] >= i) {
+                    minStepsToIndex = min(minStepsToIndex, steps[j] + 1)
+                }
+            }
+
+            steps.add(minStepsToIndex)
+        }
+
+        return steps.last()
+    }
+}
+```
 
 ## Solution 2
 
@@ -43,7 +69,7 @@
 
 因為 `currentJumpIndex` 最後結束的位置就是 `nums` 的最後一個 index，因此回傳 `jumps` 為解答，**複雜度為 O(n)**。
 
-### Example 1
+### Example 2-1
 
 | `nums` | `jumps` | `currentJumpIndex` | `targetJumpIndex` |
 |---|---|---|---|
@@ -53,7 +79,7 @@
 | 1 | 2 | 4 | 4 |
 | 4 | **2** | 4 | - |
 
-### Example 2
+### Example 2-2
 
 | `nums` | `jumps` | `currentJumpIndex` | `targetJumpIndex` |
 |---|---|---|---|
@@ -63,7 +89,7 @@
 | 1 | 2 | 4 | 4 |
 | 4 | **2** | 4 | - |
 
-### Example 3
+### Example 2-3
 
 | `nums` | `jumps` | `currentJumpIndex` | `targetJumpIndex` |
 |---|---|---|---|
@@ -71,3 +97,28 @@
 | 1 | 1 | 1 | 2 |
 | 1 | 2 | 2 | 3 |
 | 1 | **3** | 3 | - |
+
+### Implementation
+
+```kotlin
+class Solution {
+    fun jump(nums: IntArray): Int {
+        var currentJumpIndex = 0
+        var targetJumpIndex = nums[0]
+        var jumps = 0
+
+        for (i in 0 until nums.size) {
+            if (i > currentJumpIndex) {
+                jumps++
+                currentJumpIndex = targetJumpIndex
+            }
+
+            if (i + nums[i] > targetJumpIndex) {
+                targetJumpIndex = i + nums[i]
+            }
+        }
+
+        return jumps
+    }
+}
+```
