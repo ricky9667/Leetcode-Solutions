@@ -1,6 +1,6 @@
 # Leetcode-Solutions
 
-## [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/): 12/150
+## [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/): 14/150
 
 - [88. Merge Sorted Array](./88/)
 - [27. Remove Element](./27/)
@@ -13,5 +13,6 @@
 - [55. Jump Game](./55/)
 - [45. Jump Game II](./45/)
 - [13. Roman to Integer](./13/)
+- [12. Integer to Roman](./12/)
 - [58. Length of Last Word](./58/)
 - [14. Longest Common Prefix](./13/)
