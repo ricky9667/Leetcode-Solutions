@@ -1,6 +1,8 @@
 # Leetcode-Solutions
 
-## [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/): 15/150
+## [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/): 16/150
+
+### Array / String
 
 - [88. Merge Sorted Array](./88/)
 - [27. Remove Element](./27/)
@@ -17,3 +19,4 @@
 - [58. Length of Last Word](./58/)
 - [14. Longest Common Prefix](./13/)
 - [6. Zigzag Conversion](./6/)
+- [28. Find the Index of the First Occurrence in a String](./28/)
