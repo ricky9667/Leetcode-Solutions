@@ -21,6 +21,10 @@
 - [6. Zigzag Conversion](./6/)
 - [28. Find the Index of the First Occurrence in a String](./28/)
 
+### Two Pointers
+
+- [167. Two Sum II - Input Array Is Sorted](./167/)
+
 ## Other Solved
 
 - [1. Two Sum](./1/)
