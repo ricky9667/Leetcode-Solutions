@@ -1,6 +1,6 @@
 # Leetcode-Solutions
 
-## [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/): 16/150
+## [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/): 18/150
 
 ### Array / String
 
@@ -23,6 +23,7 @@
 
 ### Two Pointers
 
+- [125. Valid Palindrome](./125/)
 - [167. Two Sum II - Input Array Is Sorted](./167/)
 
 ## Other Solved
