@@ -1,6 +1,6 @@
 # Leetcode-Solutions
 
-## [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/): 19/150
+## [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/): 20/150
 
 ### Array / String
 
@@ -26,6 +26,7 @@
 - [125. Valid Palindrome](./125/)
 - [392. Is Subsequence](./392/)
 - [167. Two Sum II - Input Array Is Sorted](./167/)
+- [15. 3Sum](./15/)
 
 ## Other Solved
 
