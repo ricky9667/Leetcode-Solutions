@@ -23,10 +23,16 @@ else
   exit 1
 fi
 
-# Create an empty README.md file
-touch "$folder_name/README.md"
+# Create an empty README.md file with default text
+echo "# Problem" >> "$folder_name/README.md"
+echo "" >> "$folder_name/README.md"
+echo "Topics:" >> "$folder_name/README.md"
+echo "" >> "$folder_name/README.md"
+echo "## Solution" >> "$folder_name/README.md"
+echo "" >> "$folder_name/README.md"
+echo "### Implementation" >> "$folder_name/README.md"
+echo "" >> "$folder_name/README.md"
 
 echo "README.md file created in '$folder_name'."
 
 exit 0
-
