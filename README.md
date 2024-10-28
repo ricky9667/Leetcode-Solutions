@@ -1,6 +1,8 @@
 # Leetcode-Solutions
 
-Here is the sorted list by number:
+[My Leetcode Profile](https://leetcode.com/u/ricky9667/)
+
+## Problems
 
 - [1. Two Sum](./1/)
 - [6. Zigzag Conversion](./6/)
