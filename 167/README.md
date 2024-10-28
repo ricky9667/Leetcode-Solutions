@@ -1,7 +1,6 @@
 # [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
-- Problem List: [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
-- Solved: Oct 13, 2024
+Topics: `Array` `Two Pointers` `Binary Search`
 
 ## Solution
 

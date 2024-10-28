@@ -1,7 +1,6 @@
 # [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 
-- Problem List: [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
-- Solved: Oct 8, 2024
+Topics: `String`
 
 ## Solution
 

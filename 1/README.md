@@ -1,6 +1,6 @@
 # [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
-- Solved: Oct 12, 2024
+Topics: `Array` `Hash Table`
 
 ## Solution
 

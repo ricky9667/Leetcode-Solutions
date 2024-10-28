@@ -1,7 +1,6 @@
 # [169. Majority Element](https://leetcode.com/problems/majority-element/)
 
-- Problem List: [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
-- Solved: Jul 25, 2024
+Topics: `Array` `Hash Table` `Divide and Conquer` `Sorting` `Counting`
 
 ## Solution
 

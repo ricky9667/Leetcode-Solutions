@@ -1,7 +1,6 @@
 # [12. Integer To Roman](https://leetcode.com/problems/integer-to-roman/)
 
-- Problem List: [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
-- Solved: Oct 7, 2024
+Topics: `Hash Table` `Math` `String`
 
 ## Solution 1
 

@@ -1,7 +1,6 @@
 # [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 
-- Problem List: [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
-- Solved: Oct 19, 2024
+Topics: `Two Pointers` `String` `Dynamic Programming`
 
 ## Solution
 

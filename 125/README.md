@@ -1,7 +1,6 @@
 # [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
-- Problem List: [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
-- Solved: Oct 15, 2024
+Topics: `Two Pointers` `String`
 
 ## Solution
 

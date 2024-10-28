@@ -1,7 +1,6 @@
 # [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 
-- Problem List: [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
-- Solved: Oct 1, 2024
+Topics: `String` `Trie`
 
 ## Implementation
 

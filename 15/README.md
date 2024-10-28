@@ -1,7 +1,6 @@
 # [15. 3Sum](https://leetcode.com/problems/3sum/)
 
-- Problem List: [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
-- Solved: Oct 21, 2024
+Topics: `Array` `Two Pointers` `Sorting`
 
 ## Solution
 

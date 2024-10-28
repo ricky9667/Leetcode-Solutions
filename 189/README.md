@@ -1,7 +1,6 @@
 # [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 
-- Problem List: [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
-- Solved: Jul 27, 2024
+Topics: `Array` `Math` `Two Pointers`
 
 ## Solution
 
