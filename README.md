@@ -32,3 +32,4 @@
 ## Other Solved
 
 - [1. Two Sum](./1/)
+- [153. Find Minimum in Rotated Sorted Array](./153/)
