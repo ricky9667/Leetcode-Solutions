@@ -27,4 +27,6 @@
 - [167. Two Sum II - Input Array Is Sorted](./167/)
 - [169. Majority Element](./169/)
 - [189. Rotate Array](./189/)
+- [209. Minimum Size Subarray Sum](./209/)
 - [392. Is Subsequence](./392/)
+- [2825. Make String a Subsequence Using Cyclic Increments](./2825/)
