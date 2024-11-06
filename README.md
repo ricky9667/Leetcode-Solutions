@@ -5,6 +5,7 @@
 ## Problems
 
 - [1. Two Sum](./1/)
+- [3. Longest Substring Without Repeating Characters](./3/)
 - [6. Zigzag Conversion](./6/)
 - [11. Container With Most Water](./11/)
 - [12. Integer to Roman](./12/)
