@@ -30,5 +30,6 @@
 - [169. Majority Element](./169/)
 - [189. Rotate Array](./189/)
 - [209. Minimum Size Subarray Sum](./209/)
+- [383. Ransom Note](./383/)
 - [392. Is Subsequence](./392/)
 - [2825. Make String a Subsequence Using Cyclic Increments](./2825/)
