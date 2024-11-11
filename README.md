@@ -29,6 +29,7 @@
 - [167. Two Sum II - Input Array Is Sorted](./167/)
 - [169. Majority Element](./169/)
 - [189. Rotate Array](./189/)
+- [205. Isomorphic Strings](./205/)
 - [209. Minimum Size Subarray Sum](./209/)
 - [383. Ransom Note](./383/)
 - [392. Is Subsequence](./392/)
