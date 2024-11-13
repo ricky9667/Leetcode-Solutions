@@ -20,6 +20,7 @@
 - [45. Jump Game II](./45/)
 - [55. Jump Game](./55/)
 - [58. Length of Last Word](./58/)
+- [76. Minimum Window Substring](./76/)
 - [80. Remove Duplicates from Sorted Array](./80/)
 - [88. Merge Sorted Array](./88/)
 - [121. Best Time to Buy and Sell Stock](./121/)
