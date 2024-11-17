@@ -17,6 +17,7 @@
 - [28. Find the Index of the First Occurrence in a String](./28/)
 - [30. Substring with Concatenation of All Words](./30/)
 - [33. Search in Rotated Sorted Array](./33/)
+- [36. Valid Sudoku](./36/)
 - [45. Jump Game II](./45/)
 - [55. Jump Game](./55/)
 - [58. Length of Last Word](./58/)
