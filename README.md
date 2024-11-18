@@ -19,6 +19,7 @@
 - [33. Search in Rotated Sorted Array](./33/)
 - [36. Valid Sudoku](./36/)
 - [45. Jump Game II](./45/)
+- [54. Spiral Matrix](./54/)
 - [55. Jump Game](./55/)
 - [58. Length of Last Word](./58/)
 - [76. Minimum Window Substring](./76/)
