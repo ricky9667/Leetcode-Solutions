@@ -1,38 +1,35 @@
 #!/bin/bash
 
-# Check if a number argument is provided
 if [ $# -eq 0 ]; then
-  echo "Error: Please provide a number as an argument."
+  echo "Error: Please provide a string as an argument."
   exit 1
 fi
 
-# Get the folder number from the argument
-folder_number="$1"
+name="$1"
+num=$(echo "$name" | cut -d '.' -f1)
 
-# Create the folder name with the number
+link=$(echo "$name" | cut -d' ' -f2-)
+link=$(echo "$link" | tr ' ' '-' | tr '[:upper:]' '[:lower:]')
+
 folder_name="${folder_number}"
 
-# Create the folder with mkdir -p (creates parent directories if needed)
-mkdir -p "$folder_name"
+mkdir -p "$num"
 
-# Check if folder creation was successful
 if [ $? -eq 0 ]; then
-  echo "Folder '$folder_name' created successfully."
+  echo "Folder '$num' created successfully."
 else
-  echo "Error: Failed to create folder '$folder_name'."
+  echo "Error: Failed to create folder '$num'."
   exit 1
 fi
 
-# Create an empty README.md file with default text
-echo "# Problem" >> "$folder_name/README.md"
-echo "" >> "$folder_name/README.md"
-echo "Topics:" >> "$folder_name/README.md"
-echo "" >> "$folder_name/README.md"
-echo "## Solution" >> "$folder_name/README.md"
-echo "" >> "$folder_name/README.md"
-echo "### Implementation" >> "$folder_name/README.md"
-echo "" >> "$folder_name/README.md"
+echo "# [$name](https://leetcode.com/problems/$link)" >> "$num/README.md"
+echo "" >> "$num/README.md"
+echo "Topics:" >> "$num/README.md"
+echo "" >> "$num/README.md"
+echo "## Solution" >> "$num/README.md"
+echo "" >> "$num/README.md"
+echo "### Implementation" >> "$num/README.md"
 
-echo "README.md file created in '$folder_name'."
+echo "README.md file created in '$num'."
 
 exit 0
