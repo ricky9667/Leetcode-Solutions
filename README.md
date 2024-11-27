@@ -30,6 +30,7 @@
 - [121. Best Time to Buy and Sell Stock](./121/)
 - [122. Best Time to Buy and Sell Stock II](./122/)
 - [125. Valid Palindrome](./125/)
+- [128. Longest Consecutive Sequence](./128/)
 - [153. Find Minimum in Rotated Sorted Array](./153/)
 - [167. Two Sum II - Input Array Is Sorted](./167/)
 - [169. Majority Element](./169/)
