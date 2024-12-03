@@ -41,4 +41,5 @@
 - [289. Game of Life](./289/)
 - [383. Ransom Note](./383/)
 - [392. Is Subsequence](./392/)
+- [1768. Merge Strings Alternately](./1768/)
 - [2825. Make String a Subsequence Using Cyclic Increments](./2825/)
