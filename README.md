@@ -23,6 +23,7 @@
 - [54. Spiral Matrix](./54/)
 - [55. Jump Game](./55/)
 - [56. Merge Intervals](./56/)
+- [57. Insert Intervals](./57/)
 - [58. Length of Last Word](./58/)
 - [73. Set Matrix Zeroes](./73/)
 - [76. Minimum Window Substring](./76/)
