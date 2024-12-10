@@ -34,6 +34,7 @@
 - [125. Valid Palindrome](./125/)
 - [128. Longest Consecutive Sequence](./128/)
 - [153. Find Minimum in Rotated Sorted Array](./153/)
+- [155. Min Stack](./155/)
 - [167. Two Sum II - Input Array Is Sorted](./167/)
 - [169. Majority Element](./169/)
 - [189. Rotate Array](./189/)
