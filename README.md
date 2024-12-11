@@ -25,6 +25,7 @@
 - [56. Merge Intervals](./56/)
 - [57. Insert Intervals](./57/)
 - [58. Length of Last Word](./58/)
+- [71. Simplify Path](./71/)
 - [73. Set Matrix Zeroes](./73/)
 - [76. Minimum Window Substring](./76/)
 - [80. Remove Duplicates from Sorted Array](./80/)
