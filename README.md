@@ -37,6 +37,7 @@
 - [125. Valid Palindrome](./125/)
 - [128. Longest Consecutive Sequence](./128/)
 - [141. Linked List Cycle](./141/)
+- [146. LRU Cache](./146/)
 - [153. Find Minimum in Rotated Sorted Array](./153/)
 - [155. Min Stack](./155/)
 - [167. Two Sum II - Input Array Is Sorted](./167/)
