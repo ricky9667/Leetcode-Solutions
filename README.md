@@ -34,6 +34,7 @@
 - [92. Reverse Linked List II](./92/)
 - [104. Maximum Depth of Binary Tree](./104/)
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](./105/)
+- [112. Path Sum](./112/)
 - [121. Best Time to Buy and Sell Stock](./121/)
 - [122. Best Time to Buy and Sell Stock II](./122/)
 - [125. Valid Palindrome](./125/)
