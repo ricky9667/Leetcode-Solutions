@@ -38,6 +38,7 @@
 - [112. Path Sum](./112/)
 - [121. Best Time to Buy and Sell Stock](./121/)
 - [122. Best Time to Buy and Sell Stock II](./122/)
+- [124. Binary Tree Maximum Path Sum](./124/)
 - [125. Valid Palindrome](./125/)
 - [128. Longest Consecutive Sequence](./128/)
 - [141. Linked List Cycle](./141/)
