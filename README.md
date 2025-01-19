@@ -43,6 +43,7 @@
 - [124. Binary Tree Maximum Path Sum](./124/)
 - [125. Valid Palindrome](./125/)
 - [128. Longest Consecutive Sequence](./128/)
+- [129. Sum Root to Leaf Numbers](./129/)
 - [141. Linked List Cycle](./141/)
 - [146. LRU Cache](./146/)
 - [153. Find Minimum in Rotated Sorted Array](./153/)
