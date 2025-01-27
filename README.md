@@ -32,6 +32,7 @@
 - [80. Remove Duplicates from Sorted Array](./80/)
 - [88. Merge Sorted Array](./88/)
 - [92. Reverse Linked List II](./92/)
+- [98. Validate Binary Search Tree](./98/)
 - [101. Symmetric Tree](./101/)
 - [104. Maximum Depth of Binary Tree](./104/)
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](./105/)
