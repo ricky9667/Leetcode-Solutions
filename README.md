@@ -55,6 +55,7 @@
 - [205. Isomorphic Strings](./205/)
 - [209. Minimum Size Subarray Sum](./209/)
 - [226. Invert Binary Tree](./226/)
+- [230. Kth Smallest Element in a BST](./230/)
 - [289. Game of Life](./289/)
 - [383. Ransom Note](./383/)
 - [392. Is Subsequence](./392/)
